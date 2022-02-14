@@ -15,7 +15,6 @@ public class Quip {
 public Response index() throws Exception {
     String host = InetAddress.getLocalHost().getHostName();
     return Response.ok("Veni, vidi, vici...\n").build();
-    //return Response.ok("Veni, vidi, vici...\n").build();
   }
 
 @GET
